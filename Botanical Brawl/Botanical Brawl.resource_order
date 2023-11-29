@@ -18,9 +18,12 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_fence","order":3,"path":"objects/obj_fence/obj_fence.yy",},
+    {"name":"Title_Screen","order":3,"path":"rooms/Title_Screen/Title_Screen.yy",},
+    {"name":"Garden","order":1,"path":"rooms/Garden/Garden.yy",},
     {"name":"obj_seed","order":2,"path":"objects/obj_seed/obj_seed.yy",},
     {"name":"spr_fence","order":3,"path":"sprites/spr_fence/spr_fence.yy",},
     {"name":"spr_enemy","order":1,"path":"sprites/spr_enemy/spr_enemy.yy",},
+    {"name":"Shop","order":2,"path":"rooms/Shop/Shop.yy",},
     {"name":"spr_seed","order":2,"path":"sprites/spr_seed/spr_seed.yy",},
     {"name":"obj_controller","order":4,"path":"objects/obj_controller/obj_controller.yy",},
   ],
