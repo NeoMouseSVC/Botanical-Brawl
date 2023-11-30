@@ -1,4 +1,4 @@
-/*
+
 var edge = irandom_range(1, 4);
 var spawn_x, spawn_y;
 
@@ -26,7 +26,7 @@ instance_create_layer(spawn_x, spawn_y, "Instances", obj_zombie);
 
 
 alarm[0] = 60;
-*/
+
 
 
 
