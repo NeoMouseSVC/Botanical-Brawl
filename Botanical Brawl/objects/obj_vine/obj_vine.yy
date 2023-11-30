@@ -1,15 +1,21 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_seed",
-  "eventList": [],
+  "name": "obj_vine",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "plants",
+    "path": "folders/Objects/plants.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_plant",
+    "path": "objects/obj_plant/obj_plant.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -25,10 +31,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_seed",
-    "path": "sprites/spr_seed/spr_seed.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
