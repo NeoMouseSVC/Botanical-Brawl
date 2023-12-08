@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_GardenButton",
+  "name": "Object22",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],

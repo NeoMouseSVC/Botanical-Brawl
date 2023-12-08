@@ -1,4 +1,4 @@
-// @description Insert description here
+/// @description Insert description here
 // You can write your code in this editor
 if (instance_exists(obj_corn)) {
     var target_x = obj_corn.x;
