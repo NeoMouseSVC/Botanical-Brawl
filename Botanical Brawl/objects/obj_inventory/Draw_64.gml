@@ -1,11 +1,14 @@
 
 // positions for the seed icons
-var pos_parsnipSeed = [1646.054, 143.2645];
-var pos_tomSeed = [1646.054, 303.2381];
-var pos_cornSeed = [1646.054, 463.2117];
-var pos_harvestedParsnip = [1792, 160];
-var pos_harvestedTom = [1792, 320];
-var pos_harvestedCorn = [1792, 480]; 
+var pos_parsnipSeed = [1646.054, 144];
+var pos_tomSeed = [1646.054, 300];
+var pos_cornSeed = [1646.054, 470];
+
+
+//position for plant icons
+var pos_harvestedParsnip = [1800, 144];
+var pos_harvestedTom = [1800, 320];
+var pos_harvestedCorn = [1800, 470]; 
 
 var seedSprite = spr_seed; 
 
@@ -13,7 +16,7 @@ var seedScale = 5; // seed size
 var plantScaleX = 1.64; // plant size
 var plantScaleY = 1.592593; 
 
-var textOffsetX = 55; // right
+var textOffsetX = 31; // right
 var textOffsetY = 40; // down
 
 // Draw parsnip seed 
@@ -46,18 +49,21 @@ draw_text(pos_harvestedCorn[0] + textOffsetX, pos_harvestedCorn[1] + textOffsetY
 
 
 
-if (mouse_check_button_pressed(mb_left)) {
+if (mouse_check_button_pressed(mb_left)) { //left pressed event wasnt working
     var mx = mouse_x;
     var my = mouse_y;
 
-    // Check if the click is within the bounds of a seed icon and if there are seeds available
-    if (global.inventory[? "parsnipSd"] > 0 && point_in_rectangle(mx, my, pos_parsnipSeed[0], pos_parsnipSeed[1], pos_parsnipSeed[0] + 32, pos_parsnipSeed[1] + 32)) {
+   
+    var clickAreaWidth = 64; 
+    var clickAreaHeight = 64;
+
+    if (global.inventory[? "parsnipSd"] > 0 && point_in_rectangle(mx, my, pos_parsnipSeed[0], pos_parsnipSeed[1], pos_parsnipSeed[0] + clickAreaWidth, pos_parsnipSeed[1] + clickAreaHeight)) {
         global.selectedSeed = obj_parsnipSd;
     }
-    else if (global.inventory[? "tomSd"] > 0 && point_in_rectangle(mx, my, pos_tomSeed[0], pos_tomSeed[1], pos_tomSeed[0] + 32, pos_tomSeed[1] + 32)) {
+    else if (global.inventory[? "tomSd"] > 0 && point_in_rectangle(mx, my, pos_tomSeed[0], pos_tomSeed[1], pos_tomSeed[0] + clickAreaWidth, pos_tomSeed[1] + clickAreaHeight)) {
         global.selectedSeed = obj_tomSd;
     }
-    else if (global.inventory[? "cornSd"] > 0 && point_in_rectangle(mx, my, pos_cornSeed[0], pos_cornSeed[1], pos_cornSeed[0] + 32, pos_cornSeed[1] + 32)) {
+    else if (global.inventory[? "cornSd"] > 0 && point_in_rectangle(mx, my, pos_cornSeed[0], pos_cornSeed[1], pos_cornSeed[0] + clickAreaWidth, pos_cornSeed[1] + clickAreaHeight)) {
         global.selectedSeed = obj_cornSd;
     }
 }

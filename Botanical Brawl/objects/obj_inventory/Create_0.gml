@@ -7,7 +7,7 @@ if (!variable_global_exists("inventory_initialized")) {
     global.inventory[? "harvestedTom"] = 0; 
     global.inventory[? "harvestedCorn"] = 0;
 
-    global.inventory_initialized = true;  // Set a flag to indicate the inventory has been initialized
+    global.inventory_initialized = true;  
 }
 
 

@@ -1,4 +1,9 @@
-room_goto(Garden); 
+room_goto(Lawn); 
+
+
+
+
+
 
 
 

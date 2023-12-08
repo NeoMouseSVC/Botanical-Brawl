@@ -1,4 +1,5 @@
-if (global.selectedSeed != noone) {
+// Check if global.selectedSeed is initialized and a seed is selected
+if (variable_global_exists("selectedSeed") && global.selectedSeed != noone) {
     var newSeed = instance_create_layer(x, y, "SeedLayer", global.selectedSeed);
 
     // Center the seed on the dirt
@@ -16,7 +17,7 @@ if (global.selectedSeed != noone) {
         case obj_cornSd:
             newSeed.alarm[0] = 2 * room_speed; 
             break;
-        // Add the rest of the plants timers
+        // Add the rest of the plants' timers
     }
 
     global.selectedSeed = noone;
