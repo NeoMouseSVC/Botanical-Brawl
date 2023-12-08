@@ -1,7 +1,7 @@
-if (room == Lawn) {
-    visible = false; 
-} else {
+if (room == Garden) {
     visible = true; 
+} else {
+    visible = false; 
 }
 
 
