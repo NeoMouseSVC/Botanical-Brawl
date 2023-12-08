@@ -1,4 +1,4 @@
-room_goto(Lawn); 
+room_goto(Garden); 
 
 if (!variable_global_exists("lawnVisits")) {
     global.lawnVisits = 0;
