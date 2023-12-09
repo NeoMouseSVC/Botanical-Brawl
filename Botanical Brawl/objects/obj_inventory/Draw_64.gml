@@ -1,6 +1,3 @@
-draw_sprite(spr_shovel, 0, mouse_x, mouse_y);
-
-
 // positions for the seed icons
 var pos_parsnipSeed = [1646.054, 144];
 var pos_tomSeed = [1646.054, 300];
@@ -97,3 +94,6 @@ if (mouse_check_button_pressed(mb_left)) { //left pressed event wasnt working
 		global.selectedSeed = obj_epSd;
 	}
 }
+
+draw_sprite(spr_shovel, 0, mouse_x, mouse_y);
+
