@@ -111,6 +111,7 @@
     {"id":{"name":"obj_parsnip","path":"objects/obj_parsnip/obj_parsnip.yy",},},
     {"id":{"name":"spr_quicity","path":"sprites/spr_quicity/spr_quicity.yy",},},
     {"id":{"name":"obj_idk","path":"objects/obj_idk/obj_idk.yy",},},
+    {"id":{"name":"obj_credit","path":"objects/obj_credit/obj_credit.yy",},},
     {"id":{"name":"spr_corn","path":"sprites/spr_corn/spr_corn.yy",},},
     {"id":{"name":"crops","path":"objects/crops/crops.yy",},},
     {"id":{"name":"spr_shovel","path":"sprites/spr_shovel/spr_shovel.yy",},},
