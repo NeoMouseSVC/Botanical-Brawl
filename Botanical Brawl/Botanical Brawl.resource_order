@@ -19,6 +19,7 @@
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"BckGronds","order":2,"path":"folders/Sprites/BckGronds.yy",},
     {"name":"Buttns","order":3,"path":"folders/Sprites/Buttns.yy",},
+    {"name":"Enemies","order":14,"path":"folders/Sprites/Enemies.yy",},
     {"name":"farmer","order":10,"path":"folders/Sprites/farmer.yy",},
     {"name":"items","order":5,"path":"folders/Sprites/items.yy",},
     {"name":"logos","order":6,"path":"folders/Sprites/logos.yy",},
@@ -29,7 +30,6 @@
     {"name":"shop_spr","order":11,"path":"folders/Sprites/shop_spr.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
-    {"name":"Enemies","order":14,"path":"folders/Sprites/Enemies.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_shovel","order":14,"path":"objects/obj_shovel/obj_shovel.yy",},

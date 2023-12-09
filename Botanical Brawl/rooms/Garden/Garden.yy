@@ -37,6 +37,7 @@
     {"name":"inst_50EA7D75","path":"rooms/Garden/Garden.yy",},
     {"name":"inst_1D38D74B","path":"rooms/Garden/Garden.yy",},
     {"name":"inst_4F01A12B","path":"rooms/Garden/Garden.yy",},
+    {"name":"inst_560F7B7E","path":"rooms/Garden/Garden.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -54,6 +55,7 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"inventoryLayer","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61E328E9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},"properties":[],"rotation":0.0,"scaleX":2.6551723,"scaleY":2.705329,"x":1568.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_560F7B7E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inventory_shop","path":"objects/obj_inventory_shop/obj_inventory_shop.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":352.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"DirtLayer","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1EE59730","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fence","path":"objects/obj_fence/obj_fence.yy",},"properties":[],"rotation":0.0,"scaleX":25.0,"scaleY":15.0,"x":32.0,"y":-64.0,},
