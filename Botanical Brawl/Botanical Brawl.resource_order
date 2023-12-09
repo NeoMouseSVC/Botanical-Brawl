@@ -29,6 +29,7 @@
     {"name":"shop_spr","order":11,"path":"folders/Sprites/shop_spr.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
+    {"name":"Enemies","order":14,"path":"folders/Sprites/Enemies.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_shovel","order":14,"path":"objects/obj_shovel/obj_shovel.yy",},
@@ -58,6 +59,7 @@
     {"name":"obj_LawnButton","order":6,"path":"objects/obj_LawnButton/obj_LawnButton.yy",},
     {"name":"spr_lawnNT","order":2,"path":"sprites/spr_lawnNT/spr_lawnNT.yy",},
     {"name":"spr_dirt_shop","order":3,"path":"sprites/spr_dirt_shop/spr_dirt_shop.yy",},
+    {"name":"spr_centepide","order":1,"path":"sprites/spr_centepide/spr_centepide.yy",},
     {"name":"spr_dirt","order":2,"path":"sprites/spr_dirt/spr_dirt.yy",},
     {"name":"spr_Botanica_Brawl_Logo","order":2,"path":"sprites/spr_Botanica_Brawl_Logo/spr_Botanica_Brawl_Logo.yy",},
     {"name":"ts_city","order":1,"path":"tilesets/ts_city/ts_city.yy",},
@@ -81,6 +83,7 @@
     {"name":"spr_start","order":1,"path":"sprites/spr_start/spr_start.yy",},
     {"name":"spr_floor_tiles","order":13,"path":"sprites/spr_floor_tiles/spr_floor_tiles.yy",},
     {"name":"obj_crops","order":1,"path":"objects/obj_crops/obj_crops.yy",},
+    {"name":"spr_dragonfly","order":2,"path":"sprites/spr_dragonfly/spr_dragonfly.yy",},
     {"name":"spr_UparrwPsh","order":5,"path":"sprites/spr_UparrwPsh/spr_UparrwPsh.yy",},
     {"name":"Shop","order":2,"path":"rooms/Shop/Shop.yy",},
     {"name":"spr_enemy1","order":12,"path":"sprites/spr_enemy1/spr_enemy1.yy",},
