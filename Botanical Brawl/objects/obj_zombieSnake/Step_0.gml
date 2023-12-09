@@ -1,8 +1,6 @@
-// @description Insert description here
-// You can write your code in this editor
-if (instance_exists(obj_corn)) {
-    var target_x = obj_corn.x;
-    var target_y = obj_corn.y;
+if (instance_exists(obj_greenHouse)) {
+    var target_x = obj_greenHouse.x;
+    var target_y = obj_greenHouse.y;
 
     
     var dir = point_direction(x, y, target_x, target_y);
@@ -14,6 +12,9 @@ if (instance_exists(obj_corn)) {
     y += lengthdir_y(moveSpeed, dir);
 
 }
+
+
+
 
 
 

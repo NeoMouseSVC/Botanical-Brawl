@@ -1,3 +1,5 @@
+draw_sprite(spr_shovel, 0, mouse_x, mouse_y);
+
 
 // positions for the seed icons
 var pos_parsnipSeed = [1646.054, 144];
