@@ -11,13 +11,15 @@ image_xscale = 1;
 if (keyboard_check(ord("A")) || keyboard_check(vk_left)) {
     x = max(leftBound, x - moveSpeed);
     sprite_index = spr_farmerWlk;
-    image_xscale = -1; 
+    image_xscale = -1;
+	facingDirection = "left";
 }
 
 if (keyboard_check(ord("D")) || keyboard_check(vk_right)) {
     x = min(rightBound, x + moveSpeed);
     sprite_index = spr_farmerWlk;
-    image_xscale = 1; 
+    image_xscale = 1;
+	facingDirection = "right";
 }
 
 if (keyboard_check(ord("W")) || keyboard_check(vk_up)) {
@@ -28,6 +30,17 @@ if (keyboard_check(ord("S")) || keyboard_check(vk_down)) {
     y = min(bottomBound, y + moveSpeed);
 }
 
+if (keyboard_check_pressed(ord("K"))) {
+    var bullet = instance_create_layer(x, y, "Instances", obj_bullet);
+
+    if (facingDirection == "left") {
+        bullet.direction = 180; 
+    } else {
+        bullet.direction = 0; 
+    }
+
+    bullet.speed = 5; // set the speed of the bullet
+}
 
 // Reset to idle sprite if no movement keys are pressed
 if (!keyboard_check(ord("A")) && !keyboard_check(vk_left) &&
@@ -35,9 +48,5 @@ if (!keyboard_check(ord("A")) && !keyboard_check(vk_left) &&
     !keyboard_check(ord("W")) && !keyboard_check(vk_up) &&
     !keyboard_check(ord("S")) && !keyboard_check(vk_down)) {
     sprite_index = spr_farmer;
-    image_xscale = 1; // Reset scaling when idle
-	
-	if(keyboard_check_pressed(ord("Z"))) {
-		instance_create_layer(x,y,"Instances",obj_shovel)
-	}
+    image_xscale = 1; 
 }
