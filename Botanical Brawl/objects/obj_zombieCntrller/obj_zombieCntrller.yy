@@ -5,12 +5,18 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
+<<<<<<< HEAD
     "name": "control",
     "path": "folders/Objects/control.yy",
+=======
+    "name": "controllers",
+    "path": "folders/Objects/controllers.yy",
+>>>>>>> adam
   },
   "parentObjectId": null,
   "persistent": false,

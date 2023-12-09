@@ -9,8 +9,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
+<<<<<<< HEAD
     "name": "control",
     "path": "folders/Objects/control.yy",
+=======
+    "name": "controllers",
+    "path": "folders/Objects/controllers.yy",
+>>>>>>> adam
   },
   "parentObjectId": null,
   "persistent": false,

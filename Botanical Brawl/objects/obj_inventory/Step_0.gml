@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 if (room == Garden) {
     visible = true; 
 } else {
@@ -22,3 +23,10 @@ if (room == Garden) {
 
 
 
+=======
+if (room == Lawn || room == Lose) {
+    visible = false; 
+} else {
+    visible = true; 
+}
+>>>>>>> adam

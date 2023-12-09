@@ -3,16 +3,21 @@
   "resourceVersion": "1.0",
   "name": "obj_shovel",
   "eventList": [
+<<<<<<< HEAD
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+=======
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+>>>>>>> adam
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "controllers",
+    "path": "folders/Objects/controllers.yy",
   },
   "parentObjectId": null,
-  "persistent": false,
+  "persistent": true,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -27,10 +32,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_shovel",
-    "path": "sprites/spr_shovel/spr_shovel.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": false,
 }

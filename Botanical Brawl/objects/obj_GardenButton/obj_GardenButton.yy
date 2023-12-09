@@ -2,7 +2,13 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_GardenButton",
+<<<<<<< HEAD
   "eventList": [],
+=======
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+  ],
+>>>>>>> adam
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -24,8 +30,16 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
+<<<<<<< HEAD
   "solid": false,
   "spriteId": null,
+=======
+  "solid": true,
+  "spriteId": {
+    "name": "spr_GardenBttn",
+    "path": "sprites/spr_GardenBttn/spr_GardenBttn.yy",
+  },
+>>>>>>> adam
   "spriteMaskId": null,
   "visible": true,
 }

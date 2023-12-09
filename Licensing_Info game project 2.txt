@@ -3,15 +3,46 @@ Nehemias Galvan
 Cristian Garcia Flores
 Adam Nur
 
- Licensing Information
+Licensing Information
+Licensing Information
 Fonts:
-Buddy Champion Truetype Font for Windows 2014 Iconian Fonts - Daniel Zadorozny
-http://Vecteezy.com/, http://www.iconian.com/
-Free for all non-commercial uses.
-Art:
-"[LPC] Crops" by bluecarrot16, Daniel Eddeland (daneeklu), Joshua Taylor, Richard Kettering (Jetrel). Commissioned by castelonia.
-CC-BY-SA 3.0+
-https://opengameart.org/content/lpc-crops
 
-backgrounds by JonasFun, “The interior of a flower and plant shop”, 
-https://playgroundai.com/search?q=plants+and+flowerss
+Buddy Champion Truetype Font for Windows 2014
+Creator: Iconian Fonts - Daniel Zadorozny
+Website: Iconian Fonts
+Usage: Free for all non-commercial uses.
+Art:
+
+"[LPC] Crops"
+Creators: bluecarrot16, Daniel Eddeland (daneeklu), Joshua Taylor, Richard Kettering (Jetrel)
+Commissioned by: castelonia
+License: CC-BY-SA 3.0+
+Source: OpenGameArt
+Backgrounds
+Creator: JonasFun
+Title: "The interior of a flower and plant shop"
+Source: Playground AI
+Ninja Adventure Asset Pack:
+
+Creators: Pixel-boy, AAA
+License: Creative Commons Zero (CC0)
+Additional Links:
+Patreon
+Itchio Page
+Pack Page
+FisherG's Assets:
+
+Creator: FisherG
+Usage: Free to use and manipulate, except for redistribution as one's own
+Contact:
+Twitter
+Itch.io
+OpenGameArt
+Seliel the Shaper's Game Assets:
+
+Website: Seliel the Shaper
+Itchio Collection: Itch.io
+Additional Links:
+Patreon
+Ko-fi
+Twitter

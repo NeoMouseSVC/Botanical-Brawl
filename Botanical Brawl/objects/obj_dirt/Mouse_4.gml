@@ -17,7 +17,12 @@ if (variable_global_exists("selectedSeed") && global.selectedSeed != noone) {
         case obj_cornSd:
             newSeed.alarm[0] = 2 * room_speed; 
             break;
-        // Add the rest of the plants' timers
+		case obj_epSd:
+            newSeed.alarm[0] = 5 * room_speed; 
+            break;
+		case obj_pkSd:
+            newSeed.alarm[0] = 15 * room_speed; 
+            break;
     }
 
     global.selectedSeed = noone;
@@ -33,6 +38,11 @@ if (variable_global_exists("selectedSeed") && global.selectedSeed != noone) {
         case obj_cornSd:
             global.inventory[? "cornSd"] -= 1;
             break;
-        // Add the rest of the inventory updates for other seeds
+		case obj_epSd:
+            global.inventory[? "epSd"] -= 1;
+            break;
+		case obj_pkSd:
+            global.inventory[? "pkSd"] -= 1;
+            break;
     }
 }
