@@ -89,6 +89,7 @@
     {"id":{"name":"obj_tomSd_shop","path":"objects/obj_tomSd_shop/obj_tomSd_shop.yy",},},
     {"id":{"name":"spr_lawnNT","path":"sprites/spr_lawnNT/spr_lawnNT.yy",},},
     {"id":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},},
+    {"id":{"name":"spr_dirt_shop","path":"sprites/spr_dirt_shop/spr_dirt_shop.yy",},},
     {"id":{"name":"spr_dirt","path":"sprites/spr_dirt/spr_dirt.yy",},},
     {"id":{"name":"spr_Botanica_Brawl_Logo","path":"sprites/spr_Botanica_Brawl_Logo/spr_Botanica_Brawl_Logo.yy",},},
     {"id":{"name":"obj_cornSd_shop","path":"objects/obj_cornSd_shop/obj_cornSd_shop.yy",},},

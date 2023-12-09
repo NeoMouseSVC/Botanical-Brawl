@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_dirt",
-    "path": "sprites/spr_dirt/spr_dirt.yy",
+    "name": "spr_dirt_shop",
+    "path": "sprites/spr_dirt_shop/spr_dirt_shop.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -55,6 +55,7 @@
     {"name":"ts_trees","order":2,"path":"tilesets/ts_trees/ts_trees.yy",},
     {"name":"obj_LawnButton","order":6,"path":"objects/obj_LawnButton/obj_LawnButton.yy",},
     {"name":"spr_lawnNT","order":2,"path":"sprites/spr_lawnNT/spr_lawnNT.yy",},
+    {"name":"spr_dirt_shop","order":3,"path":"sprites/spr_dirt_shop/spr_dirt_shop.yy",},
     {"name":"spr_dirt","order":2,"path":"sprites/spr_dirt/spr_dirt.yy",},
     {"name":"spr_Botanica_Brawl_Logo","order":2,"path":"sprites/spr_Botanica_Brawl_Logo/spr_Botanica_Brawl_Logo.yy",},
     {"name":"ts_city","order":1,"path":"tilesets/ts_city/ts_city.yy",},
