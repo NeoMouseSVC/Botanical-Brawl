@@ -3,22 +3,3 @@ if (room == Lawn || room == Lose) {
 } else {
     visible = true; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

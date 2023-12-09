@@ -1,15 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_GardenButton",
+  "name": "obj_pumpkin",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Buttons",
-    "path": "folders/Objects/Buttons.yy",
+    "name": "plants",
+    "path": "folders/Objects/plants.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,10 +26,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_GardenBttn",
-    "path": "sprites/spr_GardenBttn/spr_GardenBttn.yy",
+    "name": "spr_pumpkin",
+    "path": "sprites/spr_pumpkin/spr_pumpkin.yy",
   },
   "spriteMaskId": null,
   "visible": true,
