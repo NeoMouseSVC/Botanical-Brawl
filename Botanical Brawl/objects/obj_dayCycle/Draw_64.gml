@@ -9,10 +9,10 @@ draw_set_alpha(1)
 }
 
 var c = c_yellow
-draw_text_color(10,10,string(seconds),c,c,c,c,1)
-draw_text_color(10,30,string(minute),c,c,c,c,1)
-draw_text_color(10,50,string(hour),c,c,c,c,1)
-draw_text_color(10,70,string(day),c,c,c,c,1)
-draw_text_color(10,90,string(month),c,c,c,c,1)
-draw_text_color(10,110,string(year),c,c,c,c,1)
-draw_text_color(10,130,string(money),c,c,c,c,1)
+draw_text_color(10,10,"Seconds:" + string(seconds),c,c,c,c,1)
+draw_text_color(10,30,"Minutes:"+ string(minute),c,c,c,c,1)
+draw_text_color(10,50,"Hour:"+ string(hour),c,c,c,c,1)
+draw_text_color(10,70,"Day: "+string(day),c,c,c,c,1)
+draw_text_color(10,90,"Month"+ string(month),c,c,c,c,1)
+draw_text_color(10,110,"Year: "+string(year),c,c,c,c,1)
+draw_text_color(10,130,"Money: "+ string(money),c,c,c,c,1)

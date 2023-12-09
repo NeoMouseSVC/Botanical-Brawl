@@ -14,7 +14,7 @@ money = 0
 darkness = 0 
 light_color = c_black
 draw_shop = false
-pause = true;
+pause = false;
 
 
 
