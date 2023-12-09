@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_GardenBttn",
-  "bbox_bottom": 527,
-  "bbox_left": 0,
-  "bbox_right": 958,
-  "bbox_top": 0,
+  "bbox_bottom": 364,
+  "bbox_left": 83,
+  "bbox_right": 441,
+  "bbox_top": 158,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db4dfcf7-2488-4a28-ac36-c4c5ab283961",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ccef36d3-fd92-4647-a0bd-1de19e8491d1",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 528,
+  "height": 500,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3f56f9d4-e5b5-4f08-be92-8f677dcc7aed","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b8d15e34-b48e-4da6-8ac9-6bcb4954a197","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"db4dfcf7-2488-4a28-ac36-c4c5ab283961","path":"sprites/spr_GardenBttn/spr_GardenBttn.yy",},},},"Disabled":false,"id":"0f3ad6a8-d889-40e8-8e0e-96991d96803b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ccef36d3-fd92-4647-a0bd-1de19e8491d1","path":"sprites/spr_GardenBttn/spr_GardenBttn.yy",},},},"Disabled":false,"id":"65c82c46-a57b-446c-bf83-8d800051061a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 959,
+  "width": 500,
 }
