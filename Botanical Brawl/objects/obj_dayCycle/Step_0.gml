@@ -14,7 +14,7 @@ darkness = hour/24
 
 if hour >= 24{
 	if room = Lawn { room_goto(Garden)}
-	if room = Garden {room_goto(Lawn)}
+	if room = Garden || room = Shop{room_goto(Lawn)}
 	cornSale = global.inventory2[? "harvestedCorn"] * 100
 	tomSale =  global.inventory2[? "harvestedTom"] * 200
 	parsnipSale = global.inventory2[? "harvestedParsnip"] * 20
