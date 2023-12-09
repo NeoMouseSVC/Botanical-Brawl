@@ -12,8 +12,8 @@ var pos_epSeed = [1646.054, 780];
 var pos_harvestedParsnip = [1800, 144];
 var pos_harvestedTom = [1800, 320];
 var pos_harvestedCorn = [1800, 470];
-var pos_harvestedPK = [1760, 600]; 
-var pos_harvestedEP = [1760, 750];
+var pos_harvestedPK = [1800, 630]; 
+var pos_harvestedEP = [1800, 790];
 
 var seedSprite = spr_seed; 
 
