@@ -97,6 +97,7 @@
     {"id":{"name":"spr_enemy_dragonfly","path":"sprites/spr_enemy_dragonfly/spr_enemy_dragonfly.yy",},},
     {"id":{"name":"obj_LawnButton","path":"objects/obj_LawnButton/obj_LawnButton.yy",},},
     {"id":{"name":"spr_lawnNT","path":"sprites/spr_lawnNT/spr_lawnNT.yy",},},
+    {"id":{"name":"spr_Botanica_Brawl_Logo2","path":"sprites/spr_Botanica_Brawl_Logo2/spr_Botanica_Brawl_Logo2.yy",},},
     {"id":{"name":"obj_zombieSnake","path":"objects/obj_zombieSnake/obj_zombieSnake.yy",},},
     {"id":{"name":"obj_zombieBug","path":"objects/obj_zombieBug/obj_zombieBug.yy",},},
     {"id":{"name":"spr_dirt","path":"sprites/spr_dirt/spr_dirt.yy",},},
