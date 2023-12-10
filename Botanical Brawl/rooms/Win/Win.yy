@@ -13,6 +13,7 @@
     {"name":"inst_240BC286","path":"rooms/Win/Win.yy",},
     {"name":"inst_5F2AF835","path":"rooms/Win/Win.yy",},
     {"name":"inst_4D8D5B93","path":"rooms/Win/Win.yy",},
+    {"name":"inst_5F6B49AD","path":"rooms/Win/Win.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -20,6 +21,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_CBA0D9B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_CBA0D9B","path":"rooms/Lose/Lose.yy",},"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_shovel","path":"objects/obj_shovel/obj_shovel.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65899ECA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_65899ECA","path":"rooms/Lose/Lose.yy",},"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_resrtart","path":"objects/obj_resrtart/obj_resrtart.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":928.0,"y":576.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1B4F625","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_1B4F625","path":"rooms/Lose/Lose.yy",},"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_moneyDisplay","path":"objects/obj_moneyDisplay/obj_moneyDisplay.yy",},"properties":[],"rotation":0.0,"scaleX":5.0,"scaleY":5.0,"x":1824.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5F6B49AD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fullscreen","path":"objects/obj_fullscreen/obj_fullscreen.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":480.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_240BC286","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_240BC286","path":"rooms/Lose/Lose.yy",},"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_shovel","path":"objects/obj_shovel/obj_shovel.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},

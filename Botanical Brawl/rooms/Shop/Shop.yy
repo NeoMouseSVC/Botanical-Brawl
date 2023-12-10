@@ -40,6 +40,7 @@
     {"name":"inst_575BB186","path":"rooms/Shop/Shop.yy",},
     {"name":"inst_A4EC5A4","path":"rooms/Shop/Shop.yy",},
     {"name":"inst_16CB2608","path":"rooms/Shop/Shop.yy",},
+    {"name":"inst_6A96C5BA","path":"rooms/Shop/Shop.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -49,6 +50,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1491D28B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_1491D28B","path":"rooms/Garden/Garden.yy",},"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_LawnButton","path":"objects/obj_LawnButton/obj_LawnButton.yy",},"properties":[],"rotation":0.0,"scaleX":0.7444001,"scaleY":0.6455466,"x":1472.0,"y":864.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A4EC5A4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_SellButton","path":"objects/obj_SellButton/obj_SellButton.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_16CB2608","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_moneyDisplay","path":"objects/obj_moneyDisplay/obj_moneyDisplay.yy",},"properties":[],"rotation":0.0,"scaleX":5.0,"scaleY":5.0,"x":0.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A96C5BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fullscreen","path":"objects/obj_fullscreen/obj_fullscreen.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":128.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"SeedLayer","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_59147588","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_59147588","path":"rooms/Garden/Garden.yy",},"inheritItemSettings":true,"isDnd":false,"objectId":{"name":"obj_parsnipSd","path":"objects/obj_parsnipSd/obj_parsnipSd.yy",},"properties":[],"rotation":0.0,"scaleX":8.461538,"scaleY":6.0000005,"x":1646.054,"y":303.2381,},
