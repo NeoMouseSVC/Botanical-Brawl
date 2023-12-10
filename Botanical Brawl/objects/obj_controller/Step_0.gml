@@ -27,6 +27,39 @@ if room != Lawn and audio_is_playing(snd_outsidenoise)
 audio_pause_sound(snd_outsidenoise)
 }
 
+if room = Title_Screen and !audio_is_playing(snd_menumusic)
+{
+audio_play_sound(snd_menumusic,2,false)
+
+}
+
+if room != Title_Screen and audio_is_playing(snd_menumusic)
+{
+audio_pause_sound(snd_menumusic)
+}
+
+if room = Garden and !audio_is_playing(snd_gardenmusic)
+{
+audio_play_sound(snd_gardenmusic,2,false)
+
+}
+
+if room != Garden and audio_is_playing(snd_gardenmusic)
+{
+audio_pause_sound(snd_gardenmusic)
+}
+
+if room = Shop and !audio_is_playing(snd_gardenmusic)
+{
+audio_play_sound(snd_gardenmusic,2,false)
+
+}
+
+if room != Shop and audio_is_playing(snd_gardenmusic)
+{
+audio_pause_sound(snd_gardenmusic)
+}
+
 
 
 
