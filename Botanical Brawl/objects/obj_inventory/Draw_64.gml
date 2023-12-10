@@ -80,18 +80,23 @@ if (mouse_check_button_pressed(mb_left)) { //left pressed event wasnt working
 
     if (global.inventory[? "parsnipSd"] > 0 && point_in_rectangle(mx, my, pos_parsnipSeed[0], pos_parsnipSeed[1], pos_parsnipSeed[0] + clickAreaWidth, pos_parsnipSeed[1] + clickAreaHeight)) {
         global.selectedSeed = obj_parsnipSd;
+		audio_play_sound(snd_clickseeds,2,false)
     }
     else if (global.inventory[? "tomSd"] > 0 && point_in_rectangle(mx, my, pos_tomSeed[0], pos_tomSeed[1], pos_tomSeed[0] + clickAreaWidth, pos_tomSeed[1] + clickAreaHeight)) {
         global.selectedSeed = obj_tomSd;
+		audio_play_sound(snd_clickseeds,2,false)
     }
     else if (global.inventory[? "cornSd"] > 0 && point_in_rectangle(mx, my, pos_cornSeed[0], pos_cornSeed[1], pos_cornSeed[0] + clickAreaWidth, pos_cornSeed[1] + clickAreaHeight)) {
         global.selectedSeed = obj_cornSd;
+		audio_play_sound(snd_clickseeds,2,false)
     } 
 	else if (global.inventory[? "pkSd"] > 0 && point_in_rectangle(mx, my, pos_pkSeed[0], pos_pkSeed[1], pos_pkSeed[0] + clickAreaWidth, pos_pkSeed[1] + clickAreaHeight)) {
 		global.selectedSeed = obj_pkSd;
+		audio_play_sound(snd_clickseeds,2,false)
 	} 
 	else if (global.inventory[? "epSd"] > 0 && point_in_rectangle(mx, my, pos_epSeed[0], pos_epSeed[1], pos_epSeed[0] + clickAreaWidth, pos_epSeed[1] + clickAreaHeight)) {
 		global.selectedSeed = obj_epSd;
+		audio_play_sound(snd_clickseeds,2,false)
 	}
 }
 

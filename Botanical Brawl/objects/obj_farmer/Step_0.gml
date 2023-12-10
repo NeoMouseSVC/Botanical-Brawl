@@ -13,6 +13,10 @@ if (keyboard_check(ord("A")) || keyboard_check(vk_left)) {
     sprite_index = spr_farmerWlk;
     image_xscale = -1;
 	facingDirection = "left";
+	if !audio_is_playing(snd_footsteps)
+{
+audio_play_sound(snd_footsteps,2,false)
+}
 }
 
 if (keyboard_check(ord("D")) || keyboard_check(vk_right)) {
@@ -20,14 +24,26 @@ if (keyboard_check(ord("D")) || keyboard_check(vk_right)) {
     sprite_index = spr_farmerWlk;
     image_xscale = 1;
 	facingDirection = "right";
+	if !audio_is_playing(snd_footsteps)
+{
+audio_play_sound(snd_footsteps,2,false)
+}
 }
 
 if (keyboard_check(ord("W")) || keyboard_check(vk_up)) {
     y = max(topBound, y - moveSpeed);
+	if !audio_is_playing(snd_footsteps)
+{
+audio_play_sound(snd_footsteps,2,false)
+}
 }
 
 if (keyboard_check(ord("S")) || keyboard_check(vk_down)) {
     y = min(bottomBound, y + moveSpeed);
+	if !audio_is_playing(snd_footsteps)
+{
+audio_play_sound(snd_footsteps,2,false)
+}
 }
 
 if (keyboard_check_pressed(ord("K"))) {
@@ -50,3 +66,5 @@ if (!keyboard_check(ord("A")) && !keyboard_check(vk_left) &&
     sprite_index = spr_farmer;
     image_xscale = 1; 
 }
+
+
