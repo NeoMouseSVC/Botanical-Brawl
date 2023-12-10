@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Botanica_Brawl_Logo",
-    "path": "sprites/spr_Botanica_Brawl_Logo/spr_Botanica_Brawl_Logo.yy",
+    "name": "spr_Botanica_Brawl_Logo2",
+    "path": "sprites/spr_Botanica_Brawl_Logo2/spr_Botanica_Brawl_Logo2.yy",
   },
   "spriteMaskId": null,
   "visible": true,
